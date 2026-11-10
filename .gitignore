@@ -1,0 +1,68 @@
+# Unity (patterns are unrooted so they apply to any Unity project under projects/)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Generated IDE and solution files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.unityproj
+
+# Unity crash and debug files
+sysinfo.txt
+*.pdb
+*.mdb
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+crashlytics-build.properties
+
+# Build outputs
+*.apk
+*.aab
+*.ipa
+*.unitypackage
+*.app
+
+# Xcode projects that Unity generates
+**/iOSBuild/
+**/XcodeBuild/
+DerivedData/
+xcuserdata/
+
+# macOS
+.DS_Store
+
+# Node (Stage 0 web work, Stage 11-12 servers)
+node_modules/
+dist/
+
+# Python (servers, scripts)
+__pycache__/
+.venv/
+
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.mobileprovision
+secrets.json
+
+# Personal test assets that must not be published (card photos, scans of textbooks)
+**/private/
