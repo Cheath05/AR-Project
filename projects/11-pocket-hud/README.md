@@ -1,6 +1,8 @@
 # Stage 11 — Capstone: personal HUD
 
-**Scheduled:** Aug 1 – Aug 21, 2027 · **Tools:** Unity, AR Foundation, your iPhone, a small server on your Mac · **Builds on:** Stages 2, 3 and 5
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md) · **Tools:** Unity, AR Foundation, your iPhone, a small server on your Mac · **Builds on:** Stages 2, 3 and 5
+
+> **New to coding?** Work through [GUIDE.md](GUIDE.md) alongside this brief. It says which files to create, where the code goes and how to check each step.
 
 ## What you will learn
 

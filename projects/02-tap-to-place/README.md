@@ -1,6 +1,8 @@
 # Stage 2 — World tracking, planes, raycasts
 
-**Scheduled:** Dec 19, 2026 – Jan 2, 2027 (winter sprint) · **Tools:** Unity 6, AR Foundation, your iPhone
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md) · **Tools:** Unity 6, AR Foundation, your iPhone
+
+> **New to coding?** Work through [GUIDE.md](GUIDE.md) alongside this brief. It says which files to create, where the code goes and how to check each step.
 
 ## What you will learn
 
@@ -53,7 +55,7 @@ Question 4 is the gap that Stage 3 fills.
 
 ## Study quest: Exploded diagrams
 
-**Scheduled:** Dec 30 – Jan 3. Do this one **or** *Graph in your room*; pick whichever fits a spring class.
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md). Do this one **or** *Graph in your room*; pick whichever fits a spring class.
 
 **Goal:** place a 3D model of something you need to learn (a cell, a heart, an engine) on your desk, pull it apart, and quiz yourself on the parts.
 
@@ -67,7 +69,7 @@ Question 4 is the gap that Stage 3 fills.
 
 ## Study quest: Graph in your room
 
-**Scheduled:** Dec 30 – Jan 3, as the alternative to *Exploded diagrams*.
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md).
 
 **Goal:** a 3D surface such as z = f(x, y) standing on your table that you can walk around.
 
@@ -92,7 +94,7 @@ Question 4 is the gap that Stage 3 fills.
 
 ## Play quest: Measuring tape
 
-**Scheduled:** Jan 3 if there is time, otherwise backlog.
+**Scheduled:** backlog.
 
 **Goal:** tap two points in the room and read the distance between them.
 

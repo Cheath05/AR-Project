@@ -1,6 +1,8 @@
 # Stage 8 — Seeing and reading
 
-**Scheduled:** Apr 5 – May 2, 2027 · **Tools:** Unity 6, AR Foundation, Xcode, Swift · **First stage with a native plugin at its centre**
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md) · **Tools:** Unity 6, AR Foundation, Xcode, Swift · **First stage with a native plugin at its centre**
+
+> **New to coding?** Work through [GUIDE.md](GUIDE.md) alongside this brief. It says which files to create, where the code goes and how to check each step.
 
 ## What you will learn
 
@@ -51,7 +53,7 @@ Answer these in your own words in `docs/log.md`:
 
 ## Study quest: Homework lens
 
-**Scheduled:** Apr 18 – Apr 28. Add it to study buddy in time for finals.
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md). Add it to study buddy in time for finals.
 
 **Goal:** point at a printed problem and get a hint, then the next step when you ask, never the whole answer at once.
 

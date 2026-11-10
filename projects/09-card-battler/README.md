@@ -1,6 +1,8 @@
 # Stage 9 — Capstone: card battler
 
-**Scheduled:** May 16 – Jun 19, 2027 (summer sprint) · **Tools:** Unity, AR Foundation, your iPhone, a second iPhone or iPad for the play quest · **Builds on:** Stage 4
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md) · **Tools:** Unity, AR Foundation, your iPhone, a second iPhone or iPad for the play quest · **Builds on:** Stage 4
+
+> **New to coding?** Work through [GUIDE.md](GUIDE.md) alongside this brief. It says which files to create, where the code goes and how to check each step.
 
 ## What you will learn
 
@@ -58,7 +60,7 @@ Question 5 is the play quest.
 
 ## Play quest: Shared table
 
-**Scheduled:** week of Jun 13.
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md).
 
 **Goal:** two phones look at the same table and see the same battle. A move made on one shows on the other.
 

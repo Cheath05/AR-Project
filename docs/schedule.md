@@ -22,76 +22,81 @@ Target: 7–9 hours a week in term, 12–15 in sprints.
 
 ## Overview
 
-| When | Weeks | Stage | Study tool you end up with |
-|---|---|---|---|
-| Nov 9 – Nov 22 | 2 | 0 — First AR | AR flip cards for December finals |
-| Nov 23 – Dec 6 | 2 | 1 — Foundations | |
-| Dec 7 – Dec 18 | — | Finals pause | Revise with the flip cards |
-| Dec 19 – Jan 2 | 2 | 2 — World tracking (winter sprint) | A 3D model or graph for a spring class |
-| Jan 3 – Jan 17 | 2 | 3 — Anchors (winter sprint) | A memory palace for week 1 of term |
-| Jan 18 – Feb 7 | 3 | 4 — Image tracking | Markers in your textbooks |
-| Feb 8 – Mar 7 | 4 | 5 — Study buddy | One study app, in time for midterms |
-| Mar 8 – Mar 13 | — | Midterm pause / buffer | |
-| Mar 14 – Mar 21 | 1 | 6 — Depth (spring break sprint) | |
-| Mar 22 – Apr 4 | 2 | 6 wrap-up, then 7 — Faces and hands | |
-| Apr 5 – May 2 | 4 | 8 — Seeing and reading | Homework lens for finals |
-| May 3 – May 15 | — | Finals pause | |
-| May 16 – Jun 19 | 5 | 9 — Card battler (summer sprint) | |
-| Jun 20 – Jul 31 | 6 | 10 — Idea board (summer sprint) | A working whiteboard for fall term |
-| Aug 1 – Aug 21 | 3 | 11 — Personal HUD, then headset decision | |
-| Sep – Oct 2027 | ~8 | 12 — Assistant | An assistant that quizzes you |
-| Nov 2027 – Jan 2028 | ~8 | 13 — Headset port | |
+The first stages are paced for someone learning to code from scratch, so they take longer than the later ones.
+
+| When | Stage | Study tool you end up with |
+|---|---|---|
+| Nov 9 – Nov 29 | Coding basics, then 0 — First AR | AR flip cards for December finals |
+| Nov 30 – Dec 6 | 1 — Foundations: C# tutorials, installs | |
+| Dec 7 – Dec 18 | Finals pause | Revise with the flip cards |
+| Dec 19 – Dec 27 | 1 — Foundations: Unity, first build (winter sprint) | |
+| Dec 28 – Jan 10 | 2 — World tracking (winter sprint) | A 3D model or graph for a spring class |
+| Jan 11 – Jan 27 | 3 — Anchors | A memory palace for the start of term |
+| Jan 28 – Feb 14 | 4 — Image tracking | Markers in your textbooks |
+| Feb 15 – Mar 7 | 5 — Study buddy | One study app, in time for midterms |
+| Mar 8 – Mar 13 | Midterm pause / buffer | |
+| Mar 14 – Mar 21 | 6 — Depth (spring break sprint) | |
+| Mar 22 – Apr 4 | 6 wrap-up, then 7 — Faces and hands | |
+| Apr 5 – May 2 | 8 — Seeing and reading | Homework lens for finals |
+| May 3 – May 15 | Finals pause | |
+| May 16 – Jun 19 | 9 — Card battler (summer sprint) | |
+| Jun 20 – Jul 31 | 10 — Idea board (summer sprint) | A working whiteboard for fall term |
+| Aug 1 – Aug 21 | 11 — Personal HUD, then headset decision | |
+| Sep – Oct 2027 | 12 — Assistant | An assistant that quizzes you |
+| Nov 2027 – Jan 2028 | 13 — Headset port | |
 
 ## Session by session
+
+Task numbers refer to each stage's brief (`README.md`). The matching `GUIDE.md` tells you how to start each one.
 
 ### Fall 2026
 
 | Date | Session |
 |---|---|
-| Wed Nov 11 | **Stage 0, tasks 1–3.** Serve the starter page, open it on your iPhone, compile your first image target |
-| Sun Nov 15 | **Stage 0, tasks 4–6.** Model on the card, swap in your own card and model. Core build done |
-| Wed Nov 18 | **Flip cards.** Pick one class. Design 5 question cards, compile them as one multi-target file |
-| Sun Nov 22 | **Flip cards.** Answers appear per card. Print the set. Start using it |
-| Wed Nov 25 | **Stage 1, tasks 1–2.** C# tour, install Unity and Xcode (light week: Thanksgiving) |
-| Sun Nov 29 | **Stage 1, task 3.** Unity Essentials pathway, first half |
-| Wed Dec 2 | **Stage 1, tasks 3–4.** Finish Essentials, write your first script |
-| Sun Dec 6 | **Stage 1, tasks 5–6.** Build to iPhone, set up LFS, commit. Core build done |
+| Wed Nov 11 | **Coding basics.** Read `docs/coding-basics.md`, do the JavaScript tutorials it lists. Run the Stage 0 starter with Go Live |
+| Sun Nov 15 | **Stage 0, tasks 2–3.** Compile an image target; TODOs 1–2, camera feed on |
+| Wed Nov 18 | **Stage 0, tasks 4–5.** Cube on the card; found and lost messages |
+| Sun Nov 22 | **Stage 0, tasks 6 and 1.** Your own model and card; get it onto your iPhone. Core build done |
+| Wed Nov 25 | **Flip cards.** One card showing its answer as text (light week: Thanksgiving) |
+| Sun Nov 29 | **Flip cards.** All five cards with a loop. Print the set. Start using it |
+| Wed Dec 2 | **Stage 1, task 1.** C# beginner tutorials in the browser |
+| Sun Dec 6 | **Stage 1, tasks 1–2.** Finish the C# tutorials; install Unity and Xcode |
 | Dec 7 – 18 | **Finals pause.** Revise with the flip cards |
 
 ### Winter sprint
 
 | Date | Session |
 |---|---|
-| Sun Dec 20 | **Stage 2, tasks 1–2.** AR Foundation project, planes visualised |
-| Wed Dec 23 | **Stage 2, tasks 3–4.** Raycast, tap to place |
-| Sun Dec 27 | **Stage 2, tasks 5–6.** Move, rotate, delete. Core build done |
-| Wed Dec 30 | **Study quest:** *Exploded diagrams* or *Graph in your room* (pick by your spring classes) |
-| Sun Jan 3 | Finish the study quest. *Measuring tape* if time. **Stage 3, task 1** |
-| Wed Jan 6 | **Stage 3, tasks 2–3.** Notes on anchors, editable text |
-| Sun Jan 10 | **Stage 3, tasks 4–5.** Save and reload the world map. Core build done |
-| Wed Jan 13 | **Study quest:** *Memory palace* |
-| Sun Jan 17 | **Study quest:** *Formula graffiti*. Load your first week's material |
+| Sun Dec 20 | **Stage 1, task 3.** Unity Essentials pathway, first half |
+| Wed Dec 23 | **Stage 1, tasks 3–4.** Finish Essentials; write your first script |
+| Sun Dec 27 | **Stage 1, tasks 5–6.** Build to iPhone, set up LFS, commit. Core build done |
+| Wed Dec 30 | **Stage 2, tasks 1–2.** AR Foundation project, planes visualised |
+| Sun Jan 3 | **Stage 2, tasks 3–4.** Raycast, tap to place |
+| Wed Jan 6 | **Stage 2, tasks 5–6.** Move, rotate, delete. Core build done |
+| Sun Jan 10 | **Study quest:** *Exploded diagrams* or *Graph in your room* (pick by your spring classes) |
+| Wed Jan 13 | **Stage 3, tasks 1–2.** Anchor basics, notes on anchors |
+| Sun Jan 17 | **Stage 3, task 3.** Editable text |
 
-Extra sprint sessions go on any free day between shifts; use them for backlog quests.
+Extra sprint sessions go on any free day between shifts. Use them to catch up first, then for backlog quests.
 
 ### Spring 2027
 
 | Date | Session |
 |---|---|
-| Wed Jan 20 | **Stage 4, tasks 1–2.** Reference image library, one tracked card |
-| Sun Jan 24 | **Stage 4, tasks 3–4.** A different creature per card |
-| Wed Jan 27 | **Stage 4, tasks 5–6.** Several cards at once, lost-tracking behaviour. Core build done |
-| Sun Jan 31 | **Study quest:** *Textbook triggers*, first chapter |
-| Wed Feb 3 | *Textbook triggers* for a second class |
-| Sun Feb 7 | **Play quest:** *Card extras*. Buffer |
-| Wed Feb 10 | **Stage 5, tasks 1–2.** Sketch the app on paper, data model for subjects and cards |
-| Sun Feb 14 | **Stage 5, task 3.** Subject menu, bring in *Memory palace* |
-| Wed Feb 17 | **Stage 5, task 4.** Bring in *Textbook triggers* and one Stage 2 quest |
-| Sun Feb 21 | **Stage 5, task 5.** Save progress locally, then iCloud sync |
-| Wed Feb 24 | **Study quest:** *Spaced-repetition room*, scheduling algorithm |
-| Sun Feb 28 | *Spaced-repetition room*, the AR part |
-| Wed Mar 3 | **Study quest:** *Study reminders* |
-| Sun Mar 7 | Polish, TestFlight build to yourself. Core build done |
+| Wed Jan 20 | **Stage 3, task 4.** Save the world map |
+| Sun Jan 24 | **Stage 3, task 5.** Reload it. Core build done |
+| Wed Jan 27 | **Study quest:** *Memory palace*, loaded with real course material |
+| Sun Jan 31 | **Stage 4, tasks 1–2.** Reference image library, one tracked card |
+| Wed Feb 3 | **Stage 4, tasks 3–4.** A different creature per card |
+| Sun Feb 7 | **Stage 4, tasks 5–6.** Several cards at once, lost-tracking behaviour. Core build done |
+| Wed Feb 10 | **Study quest:** *Textbook triggers*, first chapter |
+| Sun Feb 14 | *Textbook triggers* for a second class. Buffer |
+| Wed Feb 17 | **Stage 5, tasks 1–2.** Sketch the app on paper, data model for subjects and cards |
+| Sun Feb 21 | **Stage 5, task 3.** Subject menu, bring in *Memory palace* |
+| Wed Feb 24 | **Stage 5, task 4.** Bring in *Textbook triggers* and one Stage 2 quest |
+| Sun Feb 28 | **Stage 5, task 5.** Save progress locally (cloud sync can wait for the backlog). Core build done |
+| Wed Mar 3 | **Study quest:** *Spaced-repetition room*, the scheduling algorithm |
+| Sun Mar 7 | *Spaced-repetition room*, the AR part. TestFlight build to yourself |
 | Mar 8 – 13 | **Midterm pause / buffer** |
 | Sun Mar 14 | **Stage 6, tasks 1–2.** Depth and occlusion on (spring break) |
 | Wed Mar 17 | **Stage 6, tasks 3–5.** People occlusion, meshing or planes fallback, light estimation. Core build done |

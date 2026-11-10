@@ -1,5 +1,7 @@
 # Roadmap
 
+New to coding? Read [coding-basics.md](coding-basics.md) first.
+
 Thirteen stages on iPhone, then a port to a headset. Each stage has a **core build** that teaches one concept, plus **study quests** and **play quests** that reuse it. The full brief for each stage is in its `projects/` folder; dates are in [schedule.md](schedule.md).
 
 ## The stages at a glance
@@ -36,10 +38,11 @@ Stages 6 and 7 are independent of the capstones, so they can move if the schedul
 ## How to work a stage
 
 1. **Read** the "Read first" links in the brief (Tuesday or Thursday evening).
-2. **Build** the core build, working through the tasks in order. Each task is a problem; the brief does not contain the answer.
-3. **Check** yourself against "Done when" and answer the "Check your understanding" questions in your own words in the log.
-4. **Quest**: do the quests the schedule names. Leave the rest as backlog.
-5. **Commit** and tick the box in the root README.
+2. **Open the stage's `GUIDE.md`.** It lists the new coding ideas to learn first, the files to create, and how to start and check each task.
+3. **Build** the core build, working through the tasks in order. The brief says what to build, the guide says how to go about it, and the code is yours to write.
+4. **Check** yourself against "Done when" and answer the "Check your understanding" questions in your own words in the log.
+5. **Quest**: do the quests the schedule names. Leave the rest as backlog.
+6. **Commit** and tick the box in the root README.
 
 ## Getting help without getting the answer
 
@@ -56,10 +59,10 @@ Quests not on the schedule, for any week you finish early. They are described in
 
 - Stage 0: Holo stat sheet
 - Stage 1: Constellation finder
-- Stage 2: Physics sandbox, AR graffiti, Desk tower defence
-- Stage 3: Scale walks, Quiz hunt, Focus pet, Ghost replay, Miniature weather, Geocache notes
-- Stage 4: Molecule builder, Tabletop fog of war, Instant card (after Stage 5; it needs a TestFlight build)
-- Stage 5: Siri shortcuts
+- Stage 2: Physics sandbox, Measuring tape, AR graffiti, Desk tower defence
+- Stage 3: Formula graffiti, Scale walks, Quiz hunt, Focus pet, Ghost replay, Miniature weather, Geocache notes
+- Stage 4: Molecule builder, Card extras, Tabletop fog of war, Instant card (after Stage 5; it needs a TestFlight build)
+- Stage 5: iCloud sync, Study reminders, Siri shortcuts
 - Stage 6: Marble run, Room scanner
 - Stage 7: Finger quiz, Invisible instruments, Audio visualiser
 - Stage 8: Vocabulary labels, Deck scanner

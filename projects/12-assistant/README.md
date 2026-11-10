@@ -1,6 +1,8 @@
 # Stage 12 — Capstone: your own "Jarvis"
 
-**Scheduled:** Sep – Oct 2027, one milestone every one to two weeks (plan the exact weeks at the August check-in) · **Tools:** Unity, your iPhone, your Stage 11 server, an LLM API account · **Builds on:** Stages 8, 10 and 11
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md) · **Tools:** Unity, your iPhone, your Stage 11 server, an LLM API account · **Builds on:** Stages 8, 10 and 11
+
+> **New to coding?** Work through [GUIDE.md](GUIDE.md) alongside this brief. It says which files to create, where the code goes and how to check each step.
 
 ## What you will learn
 
