@@ -1,6 +1,8 @@
 # Stage 5 — Capstone: study buddy
 
-**Scheduled:** Feb 8 – Mar 7, 2027 · **Tools:** Unity 6, AR Foundation, Xcode, a little Swift · **Builds on:** stages 2, 3 and 4
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md) · **Tools:** Unity 6, AR Foundation, Xcode, a little Swift · **Builds on:** stages 2, 3 and 4
+
+> **New to coding?** Work through [GUIDE.md](GUIDE.md) alongside this brief. It says which files to create, where the code goes and how to check each step.
 
 ## What you will learn
 
@@ -55,7 +57,7 @@ Answer these in your own words in `docs/log.md`:
 
 ## Study quest: Spaced-repetition room
 
-**Scheduled:** Feb 22 – Feb 28.
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md).
 
 **Goal:** cards you are due to review today glow or float closer; cards you know well fade into the background.
 
@@ -69,7 +71,7 @@ Answer these in your own words in `docs/log.md`:
 
 ## Study quest: Study reminders
 
-**Scheduled:** Mar 1 – Mar 7.
+**Scheduled:** backlog.
 
 **Goal:** a notification when cards are due.
 

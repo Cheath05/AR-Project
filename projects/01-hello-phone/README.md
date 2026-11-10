@@ -1,6 +1,8 @@
 # Stage 1 — Foundations
 
-**Scheduled:** Nov 23 – Dec 6, 2026 · **Tools:** Unity 6, Xcode, your iPhone · **No AR yet**
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md) · **Tools:** Unity 6, Xcode, your iPhone · **No AR yet**
+
+> **New to coding?** Work through [GUIDE.md](GUIDE.md) alongside this brief. It says which files to create, where the code goes and how to check each step.
 
 ## What you will learn
 

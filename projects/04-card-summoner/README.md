@@ -1,6 +1,8 @@
 # Stage 4 — Image tracking in Unity
 
-**Scheduled:** Jan 18 – Feb 7, 2027 · **Tools:** Unity 6, AR Foundation, your iPhone, printed cards
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md) · **Tools:** Unity 6, AR Foundation, your iPhone, printed cards
+
+> **New to coding?** Work through [GUIDE.md](GUIDE.md) alongside this brief. It says which files to create, where the code goes and how to check each step.
 
 ## What you will learn
 
@@ -52,7 +54,7 @@ Answer these in your own words in `docs/log.md`:
 
 ## Study quest: Textbook triggers
 
-**Scheduled:** Jan 31 – Feb 3. One chapter first, then a second class.
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md). One chapter first, then a second class.
 
 **Goal:** point the phone at a marker on a textbook page or a page of your notes and get your summary, or a 3D model, for that chapter.
 
@@ -78,7 +80,7 @@ Answer these in your own words in `docs/log.md`:
 
 ## Play quest: Card extras
 
-**Scheduled:** Sun Feb 7.
+**Scheduled:** backlog.
 
 **Goal:** make the cards feel like a game. Pick two.
 

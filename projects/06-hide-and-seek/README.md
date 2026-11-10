@@ -1,6 +1,8 @@
 # Stage 6 — Depth, occlusion, meshing, lighting
 
-**Scheduled:** Mar 14 – Mar 24, 2027 (spring break sprint) · **Tools:** Unity 6, AR Foundation · **Best with:** a LiDAR iPhone (Pro models), but not required
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md) · **Tools:** Unity 6, AR Foundation · **Best with:** a LiDAR iPhone (Pro models). Without LiDAR, environment depth and meshing are unavailable; you do people occlusion and the planes fallback
+
+> **New to coding?** Work through [GUIDE.md](GUIDE.md) alongside this brief. It says which files to create, where the code goes and how to check each step.
 
 ## What you will learn
 
@@ -44,14 +46,14 @@ Start from a copy of your Stage 2 project so you already have tap-to-place.
 
 Answer these in your own words in `docs/log.md`:
 
-1. Where does depth come from on a phone with no LiDAR? Why is it worse on blank walls?
+1. Why can a phone with no LiDAR hide objects behind people but not behind furniture?
 2. Why are occlusion edges fuzzy or flickery? What would a perfect depth sensor change?
 3. A mesh and a set of planes both describe the room. When is each the better tool?
 4. The Quest 3 has a depth sensor and the Quest 3S does not. Having done this stage, what difference would you expect between them?
 
 ## Study quest: Life-size models
 
-**Scheduled:** Mar 24.
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md).
 
 **Goal:** a full-scale skeleton, organ, planet or machine standing in your room that you can walk around and behind.
 
@@ -64,7 +66,7 @@ Answer these in your own words in `docs/log.md`:
 
 ## Play quest: Portal door
 
-**Scheduled:** Mar 21.
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md).
 
 **Goal:** a doorway on your wall. Through it you see another world; walk through and you are inside it, looking back at your room.
 

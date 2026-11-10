@@ -1,6 +1,8 @@
 # Stage 7 — Faces, hands and sound
 
-**Scheduled:** Mar 28 – Apr 4, 2027 · **Tools:** Unity 6, AR Foundation, an iPhone with Face ID (TrueDepth camera) · **Kept short on purpose**
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md) · **Tools:** Unity 6, AR Foundation, an iPhone with Face ID (TrueDepth camera) · **Kept short on purpose**
+
+> **New to coding?** Work through [GUIDE.md](GUIDE.md) alongside this brief. It says which files to create, where the code goes and how to check each step.
 
 ## What you will learn
 

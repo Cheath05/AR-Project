@@ -1,6 +1,8 @@
 # Stage 3 — Anchors and persistence
 
-**Scheduled:** Jan 3 – Jan 17, 2027 (winter sprint) · **Tools:** Unity 6, AR Foundation, your iPhone
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md) · **Tools:** Unity 6, AR Foundation, your iPhone
+
+> **New to coding?** Work through [GUIDE.md](GUIDE.md) alongside this brief. It says which files to create, where the code goes and how to check each step.
 
 ## What you will learn
 
@@ -52,7 +54,7 @@ Question 4 comes back in Stage 9 (shared anchors) and Stage 5 (synced data).
 
 ## Study quest: Memory palace
 
-**Scheduled:** Wed Jan 13. Build it for a class starting the following week.
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md). Build it for a class starting the following week.
 
 **Goal:** flashcards pinned along a route through your room, reviewed by walking it.
 
@@ -66,7 +68,7 @@ Question 4 comes back in Stage 9 (shared anchors) and Stage 5 (synced data).
 
 ## Study quest: Formula graffiti
 
-**Scheduled:** Sun Jan 17, loaded with your first week's material.
+**Scheduled:** backlog.
 
 **Goal:** formulas written large on the wall above your desk, there every time you sit down.
 

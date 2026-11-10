@@ -1,6 +1,8 @@
 # Stage 10 — Capstone: idea board
 
-**Scheduled:** Jun 20 – Jul 31, 2027 (summer sprint, one milestone a week plus a buffer week) · **Tools:** Unity, AR Foundation, your iPhone · **Builds on:** Stages 2, 3 and 5
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md) · **Tools:** Unity, AR Foundation, your iPhone · **Builds on:** Stages 2, 3 and 5
+
+> **New to coding?** Work through [GUIDE.md](GUIDE.md) alongside this brief. It says which files to create, where the code goes and how to check each step.
 
 A spatial whiteboard for treating ideas as physical things: a board on your wall that you draw on, cover in post-its and papers, and come back to tomorrow.
 

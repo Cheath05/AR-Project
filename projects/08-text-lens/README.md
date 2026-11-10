@@ -1,6 +1,8 @@
 # Stage 8 — Seeing and reading
 
-**Scheduled:** Apr 5 – May 2, 2027 · **Tools:** Unity 6, AR Foundation, Xcode, Swift · **First stage with a native plugin at its centre**
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md) · **Tools:** Unity 6, AR Foundation, Xcode, Swift · **First stage with a native plugin at its centre**
+
+> **New to coding?** Work through [GUIDE.md](GUIDE.md) alongside this brief. It says which files to create, where the code goes and how to check each step.
 
 ## What you will learn
 
@@ -29,7 +31,7 @@ Vision is a Swift framework and Unity has no wrapper for it. There is no way aro
 1. **Build the bridge.** Before any vision work, write the smallest possible native plugin: a Swift function that takes a number or string from C# and returns a changed one. Get it to build and run on the phone. What has to be true about a Swift function for C# to call it, and where does the file live in the Unity project?
 2. **Send a camera frame to Vision.** Get the current camera image from AR Foundation on the CPU and pass it across the bridge to a Vision text recognition request. For now, just print what Vision found to the Xcode console. How often should you send a frame: every frame, or less? What is the image's orientation compared with the screen?
 3. **Get results back into Unity.** Return the recognised strings and their bounding boxes to C#. Vision works off the main thread and finishes later. How does the answer get back, and what format do you send it in? Show the recognised text in a plain 2D debug overlay.
-4. **Map the 2D box to a 3D position.** You have a rectangle in image coordinates. Work out the matching screen point, then find where in the room that point lands. Vision's coordinate origin is not the same as Unity's screen origin. Draw both on paper before coding.
+4. **Map the 2D box to a 3D position.** You have a rectangle in image coordinates. Work out the matching screen point, then find where in the room that point lands. Vision's box is in normalised units (0 to 1) of the camera image, which may be rotated and cropped compared with what the screen shows. Draw both on paper before coding.
 5. **Place a label in AR.** Put a world-space label at that 3D position. It should stay on the text when you move the phone, not slide with the screen. What do you do when the same text is recognised again next frame: a new label, or update the old one?
 
 ### Done when
@@ -45,13 +47,13 @@ Vision is a Swift framework and Unity has no wrapper for it. There is no way aro
 Answer these in your own words in `docs/log.md`:
 
 1. Why can't C# call a Swift method directly? What sits in between?
-2. Vision returned normalised coordinates with a different origin. What were the steps to turn that into a point in the room?
+2. Vision returned normalised coordinates in the camera image's own frame. What were the steps to turn that into a point in the room?
 3. Recognition takes time and the phone moves meanwhile. How could that put the label in the wrong place, and how might you correct for it?
 4. Image tracking (Stage 4) and text recognition both "find something in the picture". What does each know that the other does not?
 
 ## Study quest: Homework lens
 
-**Scheduled:** Apr 18 – Apr 28. Add it to study buddy in time for finals.
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md). Add it to study buddy in time for finals.
 
 **Goal:** point at a printed problem and get a hint, then the next step when you ask, never the whole answer at once.
 

@@ -1,6 +1,8 @@
 # Stage 0 — First AR: image targets
 
-**Scheduled:** Nov 9 – Nov 22, 2026 · **Tools:** a browser, a text editor, your iPhone · **No Unity yet**
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md) · **Tools:** a browser, a text editor, your iPhone · **No Unity yet**
+
+> **New to coding?** Work through [GUIDE.md](GUIDE.md) alongside this brief. It says which files to create, where the code goes and how to check each step.
 
 ## What you will learn
 
@@ -51,7 +53,7 @@ Question 4 is the gap that Stage 2 fills.
 
 ## Study quest: Flip cards
 
-**Scheduled:** Nov 16 – Nov 22. This is your first real study tool; build it for a class with a December final.
+**Scheduled:** see [docs/schedule.md](../../docs/schedule.md). This is your first real study tool; build it for a class with a December final.
 
 **Goal:** a set of printed question cards. Point the phone at one and the answer appears above it.
 

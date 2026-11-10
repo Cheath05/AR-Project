@@ -13,12 +13,13 @@ Learning how AR works by building it, one concept at a time, on the way to a per
 
 - Everything is built on an iPhone first, with Unity 6 + AR Foundation (C#). The same skills carry to Quest and Android XR later.
 - Each stage teaches one AR concept through a *core build*, then reuses it in *study quests* and *play quests*.
-- The briefs in `projects/` describe problems to solve, not solutions. The code is mine to write.
+- Each stage folder in `projects/` has a brief (`README.md`: what to build) and a guide (`GUIDE.md`: how to start, which files to make, how to check each step). Neither contains the finished code; that part is mine to write.
 
 ## Start here
 
 | Doc | What it is |
 |---|---|
+| [docs/coding-basics.md](docs/coding-basics.md) | Coding from zero: read this first |
 | [docs/schedule.md](docs/schedule.md) | What to do this week |
 | [docs/roadmap.md](docs/roadmap.md) | Every stage, with "done when" criteria |
 | [docs/setup.md](docs/setup.md) | Cloning the repo, choosing an editor, installing Unity and Xcode |
