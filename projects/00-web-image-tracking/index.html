@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stage 0: image tracking</title>
+
+  <!-- Maps the bare names used in the imports below to CDN files. -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/",
+      "mindar-image-three": "https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-three.prod.js"
+    }
+  }
+  </script>
+
+  <style>
+    html, body { margin: 0; height: 100%; overflow: hidden; font-family: system-ui, sans-serif; }
+    #container { position: fixed; inset: 0; }
+    #status {
+      position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 10;
+      padding: 10px 14px; border-radius: 10px;
+      background: rgba(0, 0, 0, 0.7); color: #fff; font-size: 14px;
+    }
+    #start {
+      position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10;
+      padding: 14px 28px; font-size: 18px; border: 0; border-radius: 12px;
+      background: #2563eb; color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <!-- MindAR puts the camera video and the three.js canvas inside this element. -->
+  <div id="container"></div>
+
+  <button id="start">Start AR</button>
+  <div id="status">Loading modules…</div>
+
+  <script type="module">
+    import * as THREE from 'three';
+    import { MindARThree } from 'mindar-image-three';
+
+    const statusEl = document.getElementById('status');
+    const startButton = document.getElementById('start');
+    const setStatus = (text) => { statusEl.textContent = text; };
+
+    // If you can read this on your phone, task 1 is done.
+    setStatus(`Modules loaded (three.js r${THREE.REVISION}). Tap Start AR.`);
+
+    async function start() {
+      // TODO 1: Create a MindARThree instance.
+      //   It needs to know which element to draw into and where your compiled
+      //   .mind target file is. Look up its constructor options in the MindAR docs.
+
+      // TODO 2: Get the renderer, scene and camera from that instance, then start it.
+      //   Starting is asynchronous and asks for camera permission.
+      //   After this step you should see the camera feed and nothing else.
+
+      // TODO 3: Ask MindAR for an anchor for target index 0.
+      //   An anchor is an object whose pose MindAR updates every frame to match the card.
+
+      // TODO 4: Build a cube (geometry + material = mesh) and add it to the anchor's group.
+      //   Question to answer before you run it: why the anchor's group and not the scene?
+
+      // TODO 5: Anchors can call you back when the target is found and when it is lost.
+      //   Use setStatus() to show which is happening.
+
+      // TODO 6: Start the render loop so the scene is redrawn every frame.
+      //   three.js has a renderer method made for this.
+
+      setStatus('start() ran, but the TODOs are still empty. Open index.html and begin with TODO 1.');
+    }
+
+    startButton.addEventListener('click', async () => {
+      startButton.hidden = true;
+      try {
+        await start();
+      } catch (error) {
+        // Errors show on screen because the phone has no visible console.
+        setStatus(`Error: ${error.message}`);
+        startButton.hidden = false;
+        console.error(error);
+      }
+    });
+  </script>
+</body>
+</html>
