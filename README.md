@@ -21,7 +21,7 @@ Learning how AR works by building it, one concept at a time, on the way to a per
 |---|---|
 | [docs/schedule.md](docs/schedule.md) | What to do this week |
 | [docs/roadmap.md](docs/roadmap.md) | Every stage, with "done when" criteria |
-| [docs/setup.md](docs/setup.md) | Installing Unity, Xcode and building to the phone |
+| [docs/setup.md](docs/setup.md) | Cloning the repo, choosing an editor, installing Unity and Xcode |
 | [docs/resources.md](docs/resources.md) | Reading and tutorials, grouped by stage |
 | [docs/apple-services.md](docs/apple-services.md) | What the Apple Developer account unlocks |
 | [docs/hardware.md](docs/hardware.md) | Headsets and glasses, for later |

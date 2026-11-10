@@ -2,9 +2,99 @@
 
 What to install and how to get a Unity scene onto your iPhone. You do this during Stage 1; Stage 0 needs only a browser and a text editor.
 
+## Get the repo onto your Mac (do this first)
+
+"Cloning" means downloading a copy of this repo that stays linked to GitHub, so you can save your work back to it.
+
+### Which app does what
+
+| App | What you use it for | When you need it |
+|---|---|---|
+| **Terminal** | Typing Git commands (clone, commit, push) | Now |
+| **[VS Code](https://code.visualstudio.com/)** | Writing code: HTML/JavaScript in Stage 0, C# from Stage 1. This is your editor (IDE) | Now |
+| **Unity** | Building the AR scenes | Stage 1 onward |
+| **Xcode** | Only for sending a Unity build to your iPhone. You will not write code in it until Stage 8 | Stage 1 onward |
+
+VS Code is the recommendation because it is free, handles every language in this roadmap, and Unity supports it officially. [Rider](https://www.jetbrains.com/rider/) is a more powerful C# editor that is free for non-commercial use; worth a look after Stage 2, not before.
+
+### Step by step
+
+1. **Open Terminal.** Press `Cmd + Space`, type `Terminal`, press Return.
+
+2. **Check Git is installed.** Type this and press Return. If macOS offers to install "command line developer tools", accept and wait for it to finish.
+
+   ```bash
+   git --version
+   ```
+
+3. **Make a folder for your projects and go into it.** `mkdir` makes a folder, `cd` moves into it, and `~` means your home folder.
+
+   ```bash
+   mkdir -p ~/Developer && cd ~/Developer
+   ```
+
+4. **Clone the repo.** This creates `~/Developer/AR-Project`.
+
+   ```bash
+   git clone https://github.com/Cheath05/AR-Project.git
+   ```
+
+5. **Go into it.**
+
+   ```bash
+   cd AR-Project
+   ```
+
+6. **Install VS Code** from https://code.visualstudio.com/ and drag it to Applications. Open it, then **File → Open Folder…** and choose `Developer/AR-Project`. The file list on the left is the repo.
+
+7. **Add two extensions** (the squares icon in VS Code's left bar, then search by name):
+   - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), for Stage 0. Right-click `index.html` → **Open with Live Server** to see the page in your Mac's browser.
+   - [Unity](https://marketplace.visualstudio.com/items?itemName=visualstudiotoolsforunity.vstuc), from Stage 1. It gives C# autocomplete and error checking for Unity code.
+
+VS Code has a terminal built in (**Terminal → New Terminal**), already pointed at the repo folder. From here on you can use that one and skip the separate Terminal app.
+
+### Saving your work (the loop you will repeat every session)
+
+Run these from the repo folder.
+
+See what you changed:
+
+```bash
+git status
+```
+
+Stage everything you changed, ready to be saved:
+
+```bash
+git add -A
+```
+
+Save a snapshot with a short description of what you did:
+
+```bash
+git commit -m "Stage 0: cube appears on card"
+```
+
+Upload it to GitHub:
+
+```bash
+git push
+```
+
+The first push may ask you to sign in to GitHub in the browser. If you ever work from a second computer, run `git pull` at the start of a session to download the latest version.
+
+You are working alone, so committing straight to `main` is fine. Branches and pull requests are useful later, when you want to try something risky without breaking what works.
+
+### If you would rather click than type
+
+- **VS Code's Source Control panel** (the branching icon in the left bar) does status, add, commit and push with buttons. Guide: https://code.visualstudio.com/docs/sourcecontrol/overview
+- **[GitHub Desktop](https://desktop.github.com/)** is a separate app that does the same, including cloning (**File → Clone Repository**).
+
+Learning the four commands above is still worth it. Nearly every tutorial you follow will assume them. GitHub's plain-language intro: https://docs.github.com/en/get-started/using-git/about-git
+
 ## Stage 0 needs
 
-- A code editor ([VS Code](https://code.visualstudio.com/) is fine).
+- The repo cloned and open in VS Code (the section above).
 - A way to serve a folder over HTTPS to your phone. Camera access in Safari requires HTTPS on anything other than `localhost`. Options are in the [Stage 0 brief](../projects/00-web-image-tracking/README.md).
 - A printer, or a second screen to display the target image.
 
@@ -42,6 +132,8 @@ Unity's guide: [Getting started with iOS](https://docs.unity3d.com/Manual/iphone
 AR does not run in the Unity editor's Play mode with a real camera. Expect the loop to be: change → build → run on phone. Keep builds small and test one thing at a time. The [XR Simulation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.0/manual/xr-simulation/simulation-overview.html) feature lets you test plane and image logic in the editor against a fake room, which saves a lot of builds.
 
 ### 5. Git and LFS
+
+Git LFS stores large files (models, textures, audio) outside the normal Git history so the repo stays fast. It installs through [Homebrew](https://brew.sh/), a tool for installing developer software on a Mac. If `brew --version` prints "command not found", install Homebrew first using the one-line command on its home page.
 
 ```bash
 brew install git-lfs
