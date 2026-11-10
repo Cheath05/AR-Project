@@ -130,7 +130,7 @@ Extra sprint sessions go on any free day between shifts. Use them to catch up fi
 | Jul 11 | **Milestone 4.** Papers |
 | Jul 18 | **Milestone 5.** Save |
 | Jul 25 | Buffer, or one idea-board quest |
-| Aug 1 | **Stage 11, tasks 1–2.** Your API, running locally |
+| Aug 1 | **Stage 11, tasks 1–2.** Python basics (2–3 hours, see the guide), then your API running locally |
 | Aug 8 | **Stage 11, tasks 3–4.** HUD panels, locking modes |
 | Aug 15 | **Stage 11, task 5.** Live data. Core build done. **Headset decision** (see [hardware.md](hardware.md)) |
 
