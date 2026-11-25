@@ -58,3 +58,7 @@ Unity projects live inside their stage folder (for example `projects/02-tap-to-p
 
 - No secrets in this repo. API keys live on a server or in untracked local files.
 - No copyrighted card art. Test with my own drawings or cards I own, and keep photos of them out of the repo.
+
+## Related
+
+- [AR-OS](https://github.com/Cheath05/AR-OS) (private): a native Swift AR OS for an iPhone in a phone VR headset, built with Claude. It runs the whiteboard, HUD and assistant ideas from Stages 10–12 in a headset now. The stages here stay my own learning track.
